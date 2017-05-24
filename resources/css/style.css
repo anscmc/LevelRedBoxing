@@ -452,7 +452,7 @@ ul dropdown:
 .levelGreen:after{
     content: "";
     display: block;
-    padding-bottom: 38%;
+    padding-bottom: 5%;
 }
 
 .levelYellow{
@@ -465,7 +465,7 @@ ul dropdown:
 .levelYellow:after{
     content: "";
     display: block;
-    padding-bottom: 38%;
+    padding-bottom: 5%;
 }
 
 .levelRed{
@@ -478,7 +478,7 @@ ul dropdown:
 .levelRed:after{
     content: "";
     display: block;
-    padding-bottom: 38%;
+    padding-bottom: 5%;
 }
 
 /*END THE LEVELS*/
