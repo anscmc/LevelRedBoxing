@@ -357,7 +357,6 @@ ul dropdown:
 }
 
 /*END CLASS SCHEDULE*/
-
 /*START BUY CLASSES*/
 
 .memb{
@@ -376,6 +375,114 @@ ul dropdown:
 }
 
 /*END BUY CLASSES*/
+/*START THE WORKOUT*/
+
+.workoutInfo{
+    text-align:center;
+    font-size:12px;
+    height:140px;
+}
+
+.indWorkout{
+    text-align:center;
+}
+
+@media (max-width:768px){
+    .workoutInfo{
+        height:auto;
+    }
+    .indWorkout{
+        border-bottom: .5px solid lightgrey;
+        margin-bottom:10px;
+    }
+}
+
+/*END THE WORKOUT*/
+/*START THE LEVELS*/
+
+.levelMotivation{
+    width:400px;
+    margin:0 auto;
+    color:black;
+}
+
+
+.topMot{
+    width:350px;
+    margin-left:10px;
+    padding-top:25%;
+}
+
+@media (max-width:1023px){
+    .topMot{
+        width:270px;
+    }
+}
+
+.motBack{
+    border-left:1px solid white;
+    border-right:1px solid white;
+    padding-left: 5px;
+    background-color:rgba(0,0,0,.5);
+    border-radius:5px;
+}
+
+.levelMotivationWrap{
+    background-image: url(img/glove.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    max-width:768px;
+    margin: 0 auto;
+}
+
+.levelMotivationWrap:after{
+    content: "";
+    display:block;
+    padding-bottom:33.333%;
+}
+
+.levelGreen{
+    width:33.333%;
+    float:left;
+    text-align:center;
+    background-color:limegreen;
+}
+
+.levelGreen:after{
+    content: "";
+    display: block;
+    padding-bottom: 38%;
+}
+
+.levelYellow{
+    width:33.333%;
+    float:left;
+    text-align:center;
+    background-color:yellow;
+}
+
+.levelYellow:after{
+    content: "";
+    display: block;
+    padding-bottom: 38%;
+}
+
+.levelRed{
+    width:33.333%;
+    float:left;
+    text-align:center;
+    background-color:#EE3A43;
+}
+
+.levelRed:after{
+    content: "";
+    display: block;
+    padding-bottom: 38%;
+}
+
+/*END THE LEVELS*/
+
 
 
 
@@ -671,11 +778,11 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(img/rayfunportrait2.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/rayfunportrait2.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(img/trainersAction/rayfunportrait2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/trainersAction/rayfunportrait2.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 90vh;
     background-attachment: fixed;
 }
 
@@ -707,7 +814,7 @@ header {
 
 
 .motivatorsHeader{
-    height:120px !important;
+    height:100px !important;
     background-image:none;
     background-color:white;
 }
@@ -755,7 +862,7 @@ header {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    margin-top:100px;
+    margin-top:50px;
 }
 
 @media (max-height:450px) and (orientation:landscape){
@@ -771,7 +878,7 @@ header {
 */
 
 .logo {
-    height: 100px;
+    height: 75px;
     width: auto;
     float: left;
     margin-top: 20px;
