@@ -153,7 +153,6 @@ ul dropdown:
 .motivators-title{
     font-size:36px !important;
     border-bottom:none !important;
-    text-align:left;
     text-align:center;
     height:50px;
     padding-top:10px;
@@ -268,6 +267,18 @@ ul dropdown:
 
 /*END MOTIVATORS*/
 /*START PROFILES*/
+
+.trainer-title{
+    font-size:36px !important;
+    border-bottom:none !important;
+    text-align:center;
+    height:50px;
+    padding-top:10px;
+}
+
+.trainer-info{
+    width:100%;
+}
 
 .dougPic{
     width:100%;
