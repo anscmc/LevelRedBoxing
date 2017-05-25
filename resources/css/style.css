@@ -484,9 +484,155 @@ ul dropdown:
 }
 
 /*END THE LEVELS*/
+/*START CONTACT*/
 
+.contactDiv{
+    text-align:left;
+}
 
+.contactMap{
+    text-align:right
+}
 
+.contactLine{
+    margin: 0 auto;
+    width:75%;
+    max-width:400px;
+    border-top:.25px solid lightgrey;
+    margin-bottom:20px;
+    margin-top:-20px;
+}
+
+@media (max-width:599px){
+    .contactLine{
+        margin-top:0px;
+    }
+}
+
+@media (max-width:767px){
+    .contactDiv{
+        text-align:center;
+    }
+    .contactMap{
+        text-align: center;
+    }
+}
+
+/*END CONTACT*/
+/*START 6 PUNCHES*/
+
+.sixSquare {
+  height:50vh;
+}
+
+.sixPic{
+    width:100%;
+    height:100%;
+    background-image: url(img/rDark.png);
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity:.075;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sixContent{
+    z-index: 2;
+    position: absolute;
+    height:100%;
+    display:table;
+}
+
+.sixContent p{
+    display:table-cell;
+    vertical-align: middle;
+    padding-right:5px;
+}
+
+@media (max-width:374px){
+    .sixContent span{
+        font-size: 20px !important;
+    }
+}
+
+.punchTitle{
+    height:45px;
+}
+
+/*
+.sixContent span{
+    position:absolute;
+    display:table-cell;
+    
+}
+*/
+
+.jabPic {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/punches/jab.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.crossPic {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/punches/cross.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hookPic {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/punches/hook.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.uppercutPic {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/punches/uppercut.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width:768px){
+    .punchRow{
+        margin-top:40px !important;
+    }
+}
+
+.nameTag{
+    color:white;
+    line-height: 18px;
+    padding-left: 5px;
+    border-left:2px solid #EE3A43;
+    position:absolute;
+    left:10%;
+    bottom:10%;
+    background-color:rgba(0,0,0,.25)
+}
+
+/*END 6 PUNCHES*/
+
+.eventTopDiv{
+    width:100%;
+    text-align:center;
+    margin-top:-30px;
+    margin-bottom:20px;
+}
+
+@media (max-width:599px){
+    .eventTopDiv{
+        margin-top:0px;
+    }
+}
 
 * {
     margin: 0;
