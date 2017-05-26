@@ -50,14 +50,28 @@
         </header>
                   
         
-        <h2 class="the-workout-title" style="text-align:center">Press</h2>
-     
+        <h2 class="trainer-title" style="text-align:center">Press</h2>
+        <div style="margin: 0 auto;width:75%;max-width:400px;border-top:.25px solid lightgrey;margin-bottom:20px;"></div>
+        
+        <div class="animated fadeIn">
+            <a href="http://www.erienewsnow.com/story/34646052/new-boxing-gym-opens-in-erie"><div class="news erieNow"><a style=position:absolute;color:inherit;font-weight:bold;>New Boxing Gym Opens in Erie</a></div></a>
+            <a href="http://www.goerie.com/videos/3584DE7B-D0D2-44A6-87E6-CBF9A5E39F02/Take-a-look-inside-Level-Red-Boxing-in-Erie,-a-new-boxing-gym-that-opened-March-1?start=2"><div class="news goErie"><a style=position:absolute;color:inherit;font-weight:bold;>Take a look inside Level Red Boxing in Erie</a></div></a>
+            <a href="http://www.goerie.com/entertainmentlife/20170319/erie-women-dominate-with-boxing"><div class="news goErie"><a style=position:absolute;color:inherit;font-weight:bold;>Erie women dominate with boxing</a></div></a> 
+        </div>
 
 
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <script src="resources/js/script.js"></script>
+    
+    <script>
+        $(document).on('click','.navbar-collapse.in',function(e) {
+        if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+        }
+        });    
+    </script>
     
     </body>  
     

@@ -620,7 +620,7 @@ ul dropdown:
 }
 
 /*END 6 PUNCHES*/
-
+/*START PARTIES AND EVENTS*/
 .eventTopDiv{
     width:100%;
     text-align:center;
@@ -633,6 +633,55 @@ ul dropdown:
         margin-top:0px;
     }
 }
+/*END PARTIES AND EVENTS*/
+/*START PRESS*/
+
+.news{
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    overflow:hidden;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 0.3s ease-in-out;
+    opacity:.5;
+    color:transparent;
+}
+
+.erieNow{
+    background-image: url(img/news/erieNewsNow.jpg);
+    background-size: cover;
+}
+
+.goErie{
+    background-image: url(img/news/goErie.jpg);
+    background-size: cover;
+}
+
+.news:hover{
+    -webkit-filter: grayscale(0%);
+    cursor:pointer;
+    opacity:1;
+    color:white;
+}
+
+/*END PRESS*/
+
+/*START FAQ*/
+
+.panel, .flip {
+    padding:5px;
+    text-align:center;
+    background-color:#e5eecc;
+    border:solid 1px #c3c3c3;
+}
+.panel {
+    padding:50px;
+    display:none;
+}
+
+/*END FAQ*/
 
 * {
     margin: 0;
