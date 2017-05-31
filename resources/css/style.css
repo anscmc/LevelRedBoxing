@@ -41,6 +41,13 @@ ul dropdown:
 }
 */
 
+@media (max-width:482px){
+    .freeClassBtn{
+        margin-bottom: 10px;
+    }
+}
+
+
 .lrbFooter{
     bottom:0px;
     position:fixed;
@@ -65,6 +72,7 @@ ul dropdown:
     border-left:6px solid #EE3A43;
     width:100%;
     margin:20px;
+    margin-bottom:0px !important;
     position:relative;
     padding-right:0px !important;
 }
@@ -375,6 +383,10 @@ ul dropdown:
 
 /*END CLASS SCHEDULE*/
 /*START BUY CLASSES*/
+.voucher:hover{
+    cursor: pointer;
+}
+
 
 .memb{
     display:inline-block;
@@ -754,7 +766,23 @@ ul dropdown:
     margin-top:-10px;
 }
 
+
 /*END PROFILES*/
+
+.classLine{
+    margin: 0 auto;
+    width:75%;
+    max-width:400px;
+    border-top:.25px solid lightgrey;
+    margin-bottom:30px;
+    margin-top:-20px;;
+}
+
+@media (max-width:768px){
+    .classLine{
+        margin-top:0px !important;
+    }
+}
 
 * {
     margin: 0;
