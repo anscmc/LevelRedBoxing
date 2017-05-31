@@ -659,11 +659,22 @@ ul dropdown:
     width: 30%;
     padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
     margin:1.66%;
+    margin-top:0px;
     overflow:hidden;
     -webkit-filter: grayscale(100%);
     -webkit-transition: all 0.3s ease-in-out;
     opacity:.5;
     color:transparent;
+}
+
+.newsTitle{
+    float:left;
+    width: 30%;
+    margin:1.66%;
+    margin-bottom:0%;
+    overflow:hidden;
+    display:inline;
+    font-size:10px;
 }
 
 .erieNow{
@@ -720,6 +731,30 @@ ul dropdown:
 }
 
 /*END BOOK*/
+/*START PROFILES*/
+
+.trainerBio{
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    max-width:800px;
+    margin:0 auto;
+}
+
+.trainerBio p{
+    font-weight: 400;
+}
+
+.trainerLine{
+    margin: 0 auto;
+    width:75%;
+    max-width:400px;
+    border-top:.25px solid lightgrey;
+    margin-bottom:30px;
+    margin-top:-10px;
+}
+
+/*END PROFILES*/
 
 * {
     margin: 0;
