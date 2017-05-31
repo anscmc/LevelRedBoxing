@@ -290,6 +290,18 @@ ul dropdown:
     background-repeat:no-repeat;
 }
 
+#nicole{
+    background-image:url(img/trainersAction/nicolefunportrait.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#chelsea{
+    background-image:url(img/trainersBW/chelseabw.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
 /*END MOTIVATORS*/
 /*START PROFILES*/
 
@@ -379,6 +391,11 @@ ul dropdown:
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.scheduleWidget{
+    margin-right:5%;
+    margin-left:5%;
 }
 
 /*END CLASS SCHEDULE*/
@@ -742,6 +759,16 @@ ul dropdown:
     background-color:transparent !important;
 }
 
+
+.bookDiv{
+    margin:0 auto;
+    display:inline-block;
+}
+
+
+
+
+
 /*END BOOK*/
 /*START PROFILES*/
 
@@ -1039,10 +1066,15 @@ input[type=submit] {
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
+    background-color: #EE3A43;
+    border: 1px solid #EE3A43;
     color: #fff;
     margin-right: 15px;
+}
+
+.input[type=submit]:hover{
+    background-color:transparent !important;
+    color:#EE3A43 !important;
 }
 
 .btn-ghost:link,
@@ -1055,7 +1087,12 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #cf6d17;
+    background-color: transparent;
+    color:#EE3A43;
+}
+
+.buyBtn:hover{
+    color:white !important;
 }
 
 .btn-full:hover,
