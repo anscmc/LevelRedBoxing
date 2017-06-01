@@ -125,8 +125,8 @@ ul dropdown:
 }
 
 .motivators{
-    background-image:url(img/motivatorblackfade2.jpg);
-    background-image:url(img/motivatorblackfade2.jpg);
+    background-image:url(img/groupFade.jpg);
+/*    background-image:url(img/motivatorblackfade2.jpg);*/
     background-size: cover;
     background-position:right bottom;
 /*    height: 100vh;*/
