@@ -125,7 +125,7 @@ ul dropdown:
 }
 
 .motivators{
-    background-image:url(img/groupFade.jpg);
+    background-image:url(img/groupshotdesktop.jpg);
 /*    background-image:url(img/motivatorblackfade2.jpg);*/
     background-size: cover;
     background-position:right bottom;
@@ -139,6 +139,8 @@ ul dropdown:
 @media (max-width:599px){
     .motivators{
         height:100vh;
+        background-image:url(img/groupshotmobile.jpg);
+        background-position:center bottom;
     } 
     .the-workout-title{
         margin-bottom:0px;
