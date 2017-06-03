@@ -1131,6 +1131,12 @@ header {
 
 
 @media (max-width:1024px){
+    .mobile-nav-icon{
+        display:block;
+    }
+    .main-nav{
+        display:none;
+    }
     .landingHeader ul{
     z-index:1000;
     background-color:#EE3A43;
@@ -1274,15 +1280,31 @@ header {
     border-bottom:1px solid white;
 }
 
+@media (min-width:1001px) and (max-width:1024px){
+    .main-nav{
+        margin-right:50px !important;
+        line-height:3 !important;   
+    }
+}
+
 
 
 /* Mobile navi */
+
 .mobile-nav-icon {
     float: right;
     margin-top: 30px;
     cursor: pointer;
-    display: none;
     margin-left:auto;
+}
+
+@media (min-width:1025px){
+    .mobile-nav-icon{
+        display:none;
+    }
+    .main-nav{
+        display:block;
+    }
 }
 
 .mobile-nav-icon i {
