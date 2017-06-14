@@ -1129,6 +1129,15 @@ header {
     background-attachment:fixed;
 }
 
+.freeHeader{
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(img/fullroom.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/fullroom.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment:fixed;
+}
+
 
 @media (max-width:1024px){
     .mobile-nav-icon{
