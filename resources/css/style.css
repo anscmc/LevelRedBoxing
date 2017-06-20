@@ -40,6 +40,9 @@ ul dropdown:
             box-shadow: 0px 0px 8px 2px #000000;
 }
 */
+h1{
+    color:black!important;
+}
 
 @media (max-width:482px){
     .freeClassBtn{
