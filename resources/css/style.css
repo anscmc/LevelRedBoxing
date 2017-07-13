@@ -1348,3 +1348,10 @@ header {
 .sticky .logo { display: none; }
 .sticky .logo-black { display: block; }
 
+
+/*NEW LANDING*/
+.location span{
+    display:block;
+}
+
+
