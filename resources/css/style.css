@@ -1354,4 +1354,11 @@ header {
     display:block;
 }
 
+@media (max-width:599px){
+    #oneLine{
+        margin-top:20px !important;
+    }
+}
+
+
 
