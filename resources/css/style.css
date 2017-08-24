@@ -1360,5 +1360,19 @@ header {
     }
 }
 
+/* Franchisee stuff */
+
+.itembox{
+    height:350px;
+    width:100%;
+    max-width:300px;
+    border:.25px solid lightgrey;
+    margin:10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    text-align:center;
+    display: inline-block;
+}
+
 
 
