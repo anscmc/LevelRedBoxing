@@ -306,6 +306,11 @@ h1{
     background-size:cover;
     background-repeat:no-repeat;
 }
+#kaitlynne{
+    background-image:url(img/trainersAction/kaitlynnefunportrait.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
 
 /*END MOTIVATORS*/
 /*START PROFILES*/
@@ -824,6 +829,7 @@ h1{
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -977,11 +983,14 @@ a:active {
 .card img {
     /*height: 180px;*/
     width: 100%;
+    -webkit-transition: 1s;
     transition: 1s;
     background-color: #fec23e;
 }
 .card img:hover {
+    -webkit-transform: scale(0.98);
     transform: scale(0.98);
+    -webkit-transition: 1s;
     transition: 1s;
 }
 .card a {
@@ -1018,6 +1027,7 @@ a:active {
 }
 textarea:focus, input:focus {
     border-color: #fec23e !important;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 1px rgba(231, 76, 60, 0.05) !important;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 1px rgba(231, 76, 60, 0.05) !important;
 }
 #contact .btn.btn-success {
@@ -1027,11 +1037,13 @@ textarea:focus, input:focus {
     font-size: 20px;
     margin-top: 50px;
     margin-bottom: 5rem;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 #contact .btn.btn-success:hover {
     background-color: transparent;
     border: 1px solid #fec23e;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     color: #033165;
     
@@ -1124,7 +1136,7 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(img/trainersAction/rayfunportrait2.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/trainersAction/rayfunportrait2.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/trainersAction/rayfunportrait2.jpg);
     background-size: cover;
     background-position: center;
@@ -1133,7 +1145,7 @@ header {
 }
 
 .freeHeader{
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(img/fullroom.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/fullroom.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/fullroom.jpg);
     background-size: cover;
     background-position: center;
@@ -1156,6 +1168,7 @@ header {
     border-radius:10px;
         position:absolute;
         right:70px !important;
+        -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.25);
         box-shadow: 0 6px 12px rgba(0,0,0,.25);
         width:175px;
 }
@@ -1197,6 +1210,7 @@ header {
 
 @media (max-width:1024px){
     .motivatorsHeader ul{
+        -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.25);
         box-shadow: 0 6px 12px rgba(0,0,0,.25);
     }
 }
@@ -1224,7 +1238,6 @@ header {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     margin-top:50px;
 }
@@ -1333,6 +1346,7 @@ header {
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
+    -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
 }
@@ -1369,6 +1383,7 @@ header {
     border:.25px solid lightgrey;
     margin:10px;
     border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 10px black;
     box-shadow: 0px 0px 10px black;
     text-align:center;
     display: inline-block;
